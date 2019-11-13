@@ -13,7 +13,6 @@ def zero_out(matrix):
 
     for x in range(maxRow):
         matrix[x][col]=0
-        print(x,col)
 
     for y in range(maxCol):
         matrix[row][y]=0
